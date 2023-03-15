@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #6B8E23; /* Green */
+  }
+  
+  .game-container {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  
+  .game-header {
+    text-align: center;
+  }
+  
+  .game-screen {
+    width: 100%;
+    height: 500px;
+    background-image: url("mario-background.png");
+    background-repeat: repeat-x;
+    background-position: bottom;
+    position: relative;
+  }
+  
+  .game-controls {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .game-controls button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    background-color: #ff0; /* Yellow */
+    cursor: pointer;
+    margin: 0 10px;
+    box-shadow: 2px 2px 0 #000;
+  }
+  
+  .game-controls button:hover {
+    background-color: #f80; /* Orange */
+  }
+  
+  
